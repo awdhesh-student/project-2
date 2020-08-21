@@ -1,0 +1,85 @@
+html
+{
+	background-color: white;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h1
+{
+	text-align: center;
+	padding-top: 20px;
+	text-transform: capitalize;
+	color: gray;
+	font-style: oblique;
+}
+h2
+{
+	text-decoration: underline;
+	font-style: italic;
+	text-align: center;
+}
+#main
+{
+	background-color: white;
+	padding: 0em 1em 1em;
+	padding-top: 10px;
+}
+#footer
+{
+	text-align: center;
+	color: red;
+	font-size: 0.85em;
+}
+#menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#items
+{
+	float: left;
+}
+ a:link,a:visited
+ {
+ 	display: block;
+ 	width: 120px;
+ 	font-weight: bold;
+ 	color: burlywood;
+ 	text-align: center;
+ 	padding: 4px;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ }
+ a:hover,a:active
+ {
+ 	color: red;
+ }
+span
+ {
+ 	color: red;
+ 	font-size: 1.15em;
+ 	text-transform: uppercase;
+ }
+img
+{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.details
+{
+	text-align: center;
+	font-style: italic;
+}
+div.pricing-info
+{
+	text-align: center;
+	font-style: italic;
+}
